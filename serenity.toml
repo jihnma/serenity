@@ -1,0 +1,123 @@
+# Serenity - Syntax highlighting theme for focused coding in Helix Editor with a calming color palette.
+
+# Type definitions
+"type" = "periwinkle"
+
+# Constructors
+"constructor" = "light_gray"
+
+# Constants
+"constant" = "periwinkle"
+"constant.character" = "warm_blue"
+"constant.numeric" = "taupe_beige"
+
+# Strings
+"string" = "dusty_mint"
+"string.regexp" = "moss_green"
+
+# Special elements (fuzzy highlight)
+"special" = { fg = "midnight", bg = "vivid_blue" }
+
+# Comments
+"comment" = "dusk_blue"
+
+# Variables
+"variable" = "storm_gray"
+"variable.parameter" = "cool_silver"
+"variable.other.member" = "ocean_blue"
+
+# Punctuation
+"punctuation.bracket" = "slate_gray"
+"punctuation.delimiter" = "dusty_mint"
+"punctuation.special" = "moss_green"
+
+# Keywords
+"keyword" = "charcoal_slate"
+"keyword.function" = "ash_gray"
+"keyword.control.conditional" = "moss_green"
+"keyword.control.return" = "aqua_blue"
+
+# Operators
+"operator" = "aqua_green"
+
+# Functions
+"function" = "royal_plum"
+"function.method" = "royal_plum"
+
+# HTML elements
+"tag" = "warm_blue"
+"attribute" = "ocean_blue"
+
+# Markdown elements
+"markup.heading.marker" = "smoky_mauve"
+"markup.heading.1" = "warm_blue"
+"markup.heading.2" = "warm_blue"
+"markup.heading.3" = "warm_blue"
+"markup.heading.4" = "warm_blue"
+"markup.list" = "light_crimson"
+
+# Helix UI elements
+"ui.background" = {}
+"ui.cursor.match" = "vivid_blue"
+"ui.linenr" = { fg = "charcoal" }
+"ui.selection" = { fg = "midnight", bg = "vivid_blue" }
+"ui.text" = "cool_silver"
+"ui.virtual.whitespace" = "charcoal"
+"ui.popup" = { fg = "cool_silver", bg = "midnight" }
+"ui.window" = { fg = "charcoal" }
+"ui.help" = { fg = "cool_silver", bg = "midnight" }
+"ui.menu" = { fg = "cool_silver", bg = "midnight" }
+"ui.menu.selected" = { fg = "midnight", bg = "vivid_blue", modifiers = ["bold"] }
+
+# Diagnostics
+"diagnostic.error" = "light_crimson"
+"diagnostic.warning" = "gold"
+"diagnostic.info" = "midnight"
+"diagnostic.hint" = "gold"
+"diagnostic.deprecated" = { fg = "light_crimson", modifiers = ["crossed_out"] }
+
+# Diff highlighting
+"diff.plus" = "deep_navy"
+"diff.minus" = "deep_chocolate"
+"diff.delta" = "deep_navy"
+
+[palette]
+# Gray scale colors
+"midnight" = "#24273a"
+"charcoal" = "#2d3041"
+"slate_gray" = "#5a5c6d"
+"charcoal_slate" = "#585c6c"
+"smoky_mauve" = "#4d4a5c"
+"ash_gray" = "#6b707e"
+"storm_gray" = "#777d8c"
+"silver" = "#8b8e98"
+"light_silver" = "#a9aaad"
+"cool_silver" = "#9398a5"
+"light_gray" = "#bcbdc0"
+"dusty_mint" = "#7a8484"
+"wheat_gray" = "#a79b88"
+
+# Blue scale colors
+"vivid_blue" = "#2a9fd9"
+"dusk_blue" = "#394362"
+"aqua_blue" = "#4b8ec0"
+"denim_blue" = "#776ed9"
+"warm_blue" = "#6a729c"
+"periwinkle" = "#6b6b8d"
+"ocean_blue" = "#607b86"
+"soft_denim" = "#736b9a"
+"deep_navy" = "#36527c"
+
+# Green scale colors
+"aqua_green" = "#358e90"
+"taupe_beige" = "#9c867b"
+"moss_green" = "#808e58"
+
+# Yellow
+"gold" = "#d5b50b"
+
+# Red scale colors
+"sepia_rose" = "#b08a6e"
+"royal_plum" = "#A094B8"
+"light_crimson" = "#f38ba8"
+"deep_chocolate" = "#623b3e"
